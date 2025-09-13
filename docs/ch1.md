@@ -1114,7 +1114,7 @@ function statement (invoice, plays) {
 
 ::: tip
 在不熟悉 JavaScript 的人看来，result = Object.assign({}, aPerformance)的写法可能十分奇怪。它返回的是一个浅副本。虽然我更希望有个函数来完成此功能，但这个用法已经约定俗成，如果我自己写个函数，在 JavaScript 程序员看来反而会格格不入。
-::：
+:::
 
 现在我们已经有了安放 play 字段的地方，可以把数据放进去。我需要对 playFor 和 statement 函数应用搬移函数（198）（然后编译、测试、提交）。
 
