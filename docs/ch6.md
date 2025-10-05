@@ -442,8 +442,7 @@ function rating(aDriver) {
   return moreThanFiveLateDeliveries(aDriver) ? 2 : 1;
 }
 function moreThanFiveLateDeliveries(aDriver) {
-  return aDriver.numberOfLateDeliveries & gt;
-  5;
+  return aDriver.numberOfLateDeliveries >  5;
 }
 ```
 
@@ -465,8 +464,7 @@ function rating(aDriver) {
 }
 
 function moreThanFiveLateDeliveries(dvr) {
-  return dvr.numberOfLateDeliveries & gt;
-  5;
+  return dvr.numberOfLateDeliveries >  5;
 }
 ```
 
@@ -474,8 +472,7 @@ function moreThanFiveLateDeliveries(dvr) {
 
 ```js
 function rating(aDriver) {
-  return aDriver.numberOfLateDeliveries & gt;
-  5 ? 2 : 1;
+  return aDriver.numberOfLateDeliveries >  5 ? 2 : 1;
 }
 ```
 
@@ -728,8 +725,7 @@ return (basePrice > 1000);
 ```
 
 ```js
-return anOrder.basePrice & gt;
-1000;
+return anOrder.basePrice >1000;
 ```
 
 ### 动机
